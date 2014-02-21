@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.2.3 (Linux)">
+	<META NAME="CREATED" CONTENT="20140219;1727020994">
+	<META NAME="CHANGED" CONTENT="20140221;15014618810255">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P ALIGN=CENTER STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Simplified
+Workshop Series</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Automated
+Installation Demo Template</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>in
+Data Virtualization</B></FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Version
+1.0</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Welcome
+to the Simplified demo series. I refer to this as a workshop in a
+box, meaning everything is included to get you started such as the
+source, instructions, videos, presentations, etc. This demo will walk
+you through a quick demo of the Data Virtualization Installation. It
+is split into 3 main sections. First is the quick demo which walks
+you through the quick steps to run a quick, easy demo (The What). The
+second section gives an overview of the technology and how the demo
+was created (The Why and How). The third section gives you additional
+collateral. So let’s get started and as they say so easy a non
+techie can do it...</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Section
+1 : Run a quick demo</B></FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>NOTE:
+Screen shots and more step by step for creating/running the demo from
+scratch are in section 2.</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Step
+1: Clone the repository from</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><SPAN STYLE="font-variant: normal"><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Step
+2: Download Data Virtualization from
+</SPAN></SPAN></FONT></FONT></FONT></SPAN><A HREF="http://www.jboss.org/products/datavirt.html"><SPAN STYLE="font-variant: normal"><FONT COLOR="#000000"><FONT FACE="Times New Roman"><FONT SIZE=4><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">http://www.jboss.org/products/datavirt.html</SPAN></SPAN></FONT></FONT></FONT></SPAN></A></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Step
+3: Place the software in the distros folder</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Step
+4: Modify the support/InstallationScript.xml file to contain the full
+path to the installed/dv directory. Make sure to leave the
+installed/dv directory. The script performs the automated install of
+Data Virtualization.&nbsp;</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, Helvetica, sans-serif"><FONT SIZE=4>&lt;installpath&gt;/home/kpeeples/demos/dv-install-script-demo/installed/dv&lt;/installpath&gt;</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Step
+5: Run the install-run.sh script to install DV and start the server</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><SPAN STYLE="font-variant: normal"><FONT COLOR="#000000"><FONT FACE="Arial, Tahoma, Helvetica, FreeSans, sans-serif"><FONT SIZE=4><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Browse
+to&nbsp;<A HREF="http://localhost:8080/dashboard">http://localhost:8080/dashboard</A></SPAN></SPAN></FONT></FONT></FONT></SPAN><SPAN STYLE="font-variant: normal"><FONT COLOR="#000000"><FONT FACE="Times New Roman"><FONT SIZE=4><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;</SPAN></SPAN></FONT></FONT></FONT></SPAN><SPAN STYLE="font-variant: normal"><FONT COLOR="#000000"><FONT FACE="Arial, Tahoma, Helvetica, FreeSans, sans-serif"><FONT SIZE=4><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">for
+the Data Virtualization Dashboard and use user/user as the
+credentials that were installed as default. &nbsp;This is a quick
+demo of running the automated DV installer. You can use this as a
+template to build your demos. More detail of configuration and step
+by step are below.</SPAN></SPAN></FONT></FONT></FONT></SPAN></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Section
+2 : Technology Overview and creating the demo step by step</B></FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Technology
+Overview</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Step
+by Step</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Section
+3 : Additional Collateral and demo structure</B></FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+root folder of the demo contains:</FONT></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>install-run.sh
+	to install and run FSW</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>pre-run.sh
+	to do any pre-installation setup or compiling</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>post-run.sh
+	to do any post-install setup or compiling</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>README.MD
+	to briefly descibe the demo</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>readme.html
+	to meet the objectives 1) quick and easy demo 2) step by step
+	instructions with collateral</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>reset.sh
+	to reset the demo</FONT></FONT></FONT></P>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+collateral folder contains:</FONT></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Video
+	for videos or link to video</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Presentation
+	for presentations or link to presentation</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Blog
+	for a blog document or link to blog</FONT></FONT></FONT></P>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+	<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Simulation
+	for a simulation of the demo or link to simulation</FONT></FONT></FONT></P>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+distros folder contain the downloads for the demo</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+installed folder contains subfolders for the software to be installed
+when the script is run</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+source folder contains any source projects to be compiled and
+deployed</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>The
+support folder contains any supporting files/directories</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-variant: normal; font-style: normal">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=4><B>Closing</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>
